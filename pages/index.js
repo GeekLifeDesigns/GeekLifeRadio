@@ -1,1 +1,9 @@
-export default () => <div>Welcome to next.js!</div>
+import Header from '../components/Header';
+
+
+const Home = () => (
+<Header/>
+
+)
+
+export default Home;
