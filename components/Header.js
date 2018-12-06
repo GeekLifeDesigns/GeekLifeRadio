@@ -3,7 +3,7 @@ import Styled from 'styled-components';
 
 
 const Header = () => (
-    <p>Hey</p>    
+    <p className="text-danger">Hey</p>    
 )
 
 export default Header;
