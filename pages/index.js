@@ -1,8 +1,8 @@
-import Header from '../components/Header';
+import Nav from '../components/Header';
 
 
 const Home = () => (
-<Header/>
+<p>Here is the Home Page</p>
 
 )
 

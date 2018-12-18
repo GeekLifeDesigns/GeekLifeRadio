@@ -1,20 +1,28 @@
-import Styled from 'styled-components';
+import styled from 'styled-components';
 
-{/*Styles*/}
+const MenuStyle = styled.ul`
+    width: 100%;
+    text-align: center;
+   
 
-const HeaderStyle = styled.div`
-
+    li {
+        display: inline;
+        margin: 2rem;
+    }
 `;
 
 
-
-
-{/*End Styles*/}
-
-
-
 const Header = () => (
-    <p className="text-danger">Hey</p>    
+    <MenuStyle>
+    <ul>
+        <li>NEWS</li>
+        <li>MUSIC</li>
+        <li>PODCASTS</li>
+        <li>SCHEDULE</li>
+        <li>EVENTS</li>
+        <li>SUBMISSIONS</li>
+    </ul>
+    </MenuStyle>
 )
 
 export default Header;
