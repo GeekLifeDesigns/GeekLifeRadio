@@ -109,8 +109,18 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\jsore\\OneDrive - Geek Life Radio\\Projects\\Websites\\GeekLifeRadio\\components\\Header.js";
 
 
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n   \n    \n\n    img {\n        width: 150px;\n        float: left;\n        margin: 20px;\n    }\n\n    ul {\n        width: 100%;\n        margin-right: auto;\n        margin-left: auto;\n    }  \n   \n\n    li {\n        float: left;\n        margin: 1rem;\n        font-size: small;\n        text-decoration: none;\n        list-style-type: none;\n    }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    width: 100%;\n    text-align: center;\n   \n\n    li {\n        display: inline;\n        margin: 2rem;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    @import url(\"https://fonts.googleapis.com/css?family=Signika\");\n    font-family: 'Signika', sans-serif;\n\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -122,58 +132,80 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var MenuStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.ul(_templateObject());
+
+var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject());
+var MenuStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject2());
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 38
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/images/GeekLifeRadioLogoLargeText.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 42
     },
     __self: this
   }, "NEWS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 43
     },
     __self: this
   }, "MUSIC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 44
     },
     __self: this
   }, "PODCASTS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 45
     },
     __self: this
   }, "SCHEDULE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 46
     },
     __self: this
   }, "EVENTS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 47
     },
     __self: this
-  }, "SUBMISSIONS")));
+  }, "SUBMISSIONS ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-sort-down",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -440,73 +472,73 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         },
         __self: this
       }, "Comic & Books"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 30
         },
         __self: this
-      }, "Movies & TV"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
         },
         __self: this
-      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "Movies & TV"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }, "Video Games"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
-      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "Video Games"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }, "Table Games"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
         },
         __self: this
-      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "Table Games"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
         },
         __self: this
-      }, "Tech"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "Tech"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
         },
         __self: this
-      }, "Pro Wrestling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "|"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
+        },
+        __self: this
+      }, "Pro Wrestling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
         },
         __self: this
       }))));

@@ -1,27 +1,52 @@
 import styled from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-const MenuStyle = styled.ul`
-    width: 100%;
-    text-align: center;
+const GlobalStyle = createGlobalStyle`
+    @import url("https://fonts.googleapis.com/css?family=Signika");
+    font-family: 'Signika', sans-serif;
+
+
+`
+const MenuStyle = styled.div`
+   
+    
+
+    img {
+        width: 150px;
+        float: left;
+        margin: 20px;
+    }
+
+    ul {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }  
    
 
     li {
-        display: inline;
-        margin: 2rem;
+        float: left;
+        margin: 1rem;
+        font-size: small;
+        text-decoration: none;
+        list-style-type: none;
     }
 `;
 
 
 const Header = () => (
     <MenuStyle>
-    <ul>
-        <li>NEWS</li>
-        <li>MUSIC</li>
-        <li>PODCASTS</li>
-        <li>SCHEDULE</li>
-        <li>EVENTS</li>
-        <li>SUBMISSIONS</li>
-    </ul>
+        <div>
+            <img src="../static/images/GeekLifeRadioLogoLargeText.png"/>
+            <ul>
+                <li>NEWS</li>
+                <li>MUSIC</li>
+                <li>PODCASTS</li>
+                <li>SCHEDULE</li>
+                <li>EVENTS</li>
+                <li>SUBMISSIONS <i className="fas fa-sort-down"></i></li>
+            </ul>
+        </div>
     </MenuStyle>
 )
 

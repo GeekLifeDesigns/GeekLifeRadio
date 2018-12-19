@@ -25,6 +25,7 @@ class TopNav extends Component {
             <TopNavStyle>
                 <div>
                    <ul>
+                       
                        <li>Comic & Books</li>
                        <li>|</li>
                        <li>Movies & TV</li>
