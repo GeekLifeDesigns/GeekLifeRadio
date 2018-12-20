@@ -120,7 +120,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    @import url(\"https://fonts.googleapis.com/css?family=Signika\");\n    font-family: 'Signika', sans-serif;\n\n\n"]);
+  var data = _taggedTemplateLiteral(["\n    @import url(\"https://fonts.googleapis.com/css?family=Signika\");\n    font-family: 'Signika', sans-serif;\n5\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
