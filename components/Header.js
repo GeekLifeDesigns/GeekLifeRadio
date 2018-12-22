@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
     @import url("https://fonts.googleapis.com/css?family=Signika");
     font-family: 'Signika', sans-serif;
-5
+
 
 `
 const MenuStyle = styled.div`
