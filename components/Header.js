@@ -18,7 +18,7 @@ const MenuStyle = styled.div`
     }
 
     ul {
-        width: 100%;
+        width: 50%;
         margin-right: auto;
         margin-left: auto;
     }  

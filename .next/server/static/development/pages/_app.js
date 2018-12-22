@@ -110,7 +110,7 @@ var _jsxFileName = "C:\\Users\\jsore\\OneDrive - Geek Life Radio\\Projects\\Webs
 
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n   \n    \n\n    img {\n        width: 150px;\n        float: left;\n        margin: 20px;\n    }\n\n    ul {\n        width: 100%;\n        margin-right: auto;\n        margin-left: auto;\n    }  \n   \n\n    li {\n        float: left;\n        margin: 1rem;\n        font-size: small;\n        text-decoration: none;\n        list-style-type: none;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n   \n    \n\n    img {\n        width: 150px;\n        float: left;\n        margin: 20px;\n    }\n\n    ul {\n        width: 50%;\n        margin-right: auto;\n        margin-left: auto;\n    }  \n   \n\n    li {\n        float: left;\n        margin: 1rem;\n        font-size: small;\n        text-decoration: none;\n        list-style-type: none;\n    }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
